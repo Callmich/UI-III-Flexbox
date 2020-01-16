@@ -70,6 +70,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	padding: 2% 5%;
 }
 
 nav{
@@ -90,6 +91,7 @@ h1{
 header{
 	display: flex;
 	justify-content: space-around;
+	padding-bottom: 1%;
 }
 
 .headerdiv{
@@ -118,6 +120,7 @@ header span{
 	border-top: 1px black solid;
 	display: flex;
 	justify-content: space-between;
+	padding: 2% 0%;
 }
 
 .firstsec div{
@@ -133,6 +136,7 @@ header span{
 	border-bottom: 1px black solid;
 	display: flex;
 	justify-content: space-between;
+	padding: 2% 0%;
 }
 
 .secsec div{
@@ -140,14 +144,38 @@ header span{
 }
 
 .contact{
-;
+	padding: 2% 0%;
 }
 
 footer{
 	text-align: center;
 	display: flex;
 	justify-content: center;
+	padding-bottom: 2%;
 }
 
 /* CSS for services page starting here */
+ 
+.servbody{
+	display: flex;
+	flex-direction: column;
+	padding: 2% 5%;
+}
 
+.allboxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+
+.boxes{
+	width: 45%;
+	border: black solid 1px;
+	background-color: lightgray;
+}
+
+.boxes span{
+	border: black 1px solid;
+}
